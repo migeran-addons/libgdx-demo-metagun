@@ -41,6 +41,8 @@ local.properties
 .loadpath
 .externalToolBuilders/
 *.launch
+.classpath
+.project
 
 ## NetBeans
 nbproject/private/
@@ -109,3 +111,12 @@ libgdx-*.zip.MD5
 
 #ensure gdx-setup.jar works properly
 !/extensions/gdx-setup/src/com/badlogic/gdx/setup/resources/gwt/war
+
+# Native files
+native/
+
+## Migeran
+build-xcode/
+xcuserdata/
+project.xcworkspace/
+*.xccheckout

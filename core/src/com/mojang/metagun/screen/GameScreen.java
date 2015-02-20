@@ -85,7 +85,7 @@ public class GameScreen extends Screen {
 			String msg = "PRESS X TO TRY AGAIN";
 			drawString(msg, 160 - msg.length() * 3, 120 - 3);
 		}
-		if (Gdx.app.getType() == ApplicationType.Android) {
+		if (Gdx.app.getType() == ApplicationType.Android || Gdx.app.getType() == ApplicationType.iOS) {
 			draw(Art.buttons[0][0], 0, 240 - 32);
 			draw(Art.buttons[1][0], 32, 240 - 32);
 

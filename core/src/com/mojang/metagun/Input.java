@@ -48,7 +48,7 @@ public class Input implements InputProcessor {
 			oldButtons[i] = buttons[i];
 		}
 
-		if (Gdx.app.getType() == ApplicationType.Android) {
+		if (Gdx.app.getType() == ApplicationType.Android || Gdx.app.getType() == ApplicationType.iOS) {
 			boolean left = false;
 			boolean right = false;
 			boolean z = false;

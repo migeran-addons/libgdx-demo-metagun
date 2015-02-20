@@ -19,7 +19,7 @@ public class TitleScreen extends Screen {
 		draw(Art.titleScreen, 0, -yOffs);
 		if (time > 240) {
 			String msg = null;
-			if (Gdx.app.getType() == ApplicationType.Android)
+			if (Gdx.app.getType() == ApplicationType.Android || Gdx.app.getType() == ApplicationType.iOS)
 				msg = "TOUCH TO START";
 			else
 				msg = "PRESS X TO START";
